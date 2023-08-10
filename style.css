@@ -53,6 +53,7 @@ header .header-btn {
   height: 48px;
 
   font-size: 16px;
+  color: #000;
   font-weight: bold;
   text-align: center;
 
@@ -113,6 +114,7 @@ section {
   height: 48px;
 
   font-size: 16px;
+  color: #000;
   text-align: center;
   font-weight: bold;
 
@@ -129,10 +131,18 @@ section {
   background: var(--secondary-color);
 }
 
+.first-section .body-btn {
+  margin-bottom: 250px;
+}
+
+.comece-btn {
+  position: relative;
+}
+
 #seta-curva {
-  margin-left: 250px;
-  margin-top: 25px;
-  padding-bottom: 200px;
+  position: absolute;
+  right: 65px;
+  top: 70px;
 }
 
 .aulas {
