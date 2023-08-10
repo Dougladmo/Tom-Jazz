@@ -86,7 +86,7 @@ section {
   font-size: 64px;
 }
 
-.first-section p {
+.first-section h4 {
   padding-left: 115px;
   padding-bottom: 2rem;
   font-size: 24px;
@@ -94,7 +94,13 @@ section {
 
 .first-section span {
   color: var(--primary-color);
+  position: relative;
   display: block;
+}
+
+#riscos {
+  position: absolute;
+  bottom: 35px;
 }
 
 .body-btn {
@@ -176,7 +182,7 @@ section {
 }
 
 .more h1 {
-  font-size: 40px;
+  font-size: 64px;
   text-align: center;
   padding: 80px 0;
 }
@@ -192,15 +198,15 @@ section {
 footer {
   display: flex;
   flex-wrap: wrap;
-  gap: 200px;
+  gap: 130px;
   border: 2px solid #000;
-  padding: 115px 115px 150px 115px;
+  padding: 115px 115px 120px 115px;
 }
 
 footer h4 {
   padding-top: 2rem;
   font-size: 20px;
-  max-width: 16rem;
+  max-width: 20rem;
 }
 
 footer span {
@@ -232,11 +238,76 @@ footer form {
 }
 
 footer input {
-  max-width: 560px;
-  width: 100%;
+  width: 560px;
+
   height: 48px;
   text-indent: 10px;
 
   border: 3px solid #000;
   box-shadow: 2.5px 2.5px 0px #000;
+}
+
+@media (max-width: 1000px) {
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .first-section nav {
+  }
+
+  .first-section h1 {
+    padding-top: 28px;
+    padding-left: 40px;
+    padding-right: 33px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 48px;
+  }
+
+  .first-section h4 {
+    padding-left: 40px;
+    padding-right: 33px;
+    margin-bottom: 15px;
+  }
+
+  #riscos {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .teoria-bateria {
+    position: relative;
+    margin-bottom: 40px;
+    left: 15px;
+  }
+
+  .more h1 {
+    font-size: 40px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    padding: 40px;
+  }
+
+  footer input {
+    width: 260px;
+  }
+
+  .footer img {
+    width: 106px;
+  }
+
+  .footer h4 {
+    font-size: 16px;
+  }
+
+  footer .body-btn {
+    margin-bottom: 50px;
+  }
 }
