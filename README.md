@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Tom's Jazz é uma escola de música voltada ao estilo musical JAZZ!
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+- [Acesse o projeto finalizado, online](https://dougladmo.github.io/Tom-Jazz/)
 
 ## 🔖 Layout
 
