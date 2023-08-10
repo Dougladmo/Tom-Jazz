@@ -14,7 +14,12 @@
 
 <body>
   <header>
-    <div class="header-logo"><img src="assets/logo-desktop.svg" alt="Tom's jazz logo"></div>
+    <div class="header-logo">
+      <picture>
+        <source media="(max-width: 800px)" srcset="assets/logo-mobile.svg">
+        <img class="imgs" src="assets/logo-desktop.svg" alt="Tom's Jazz" />
+      </picture>
+    </div>
     <nav class="header-nav">
       <a href="#">Início</a>
       <a href="#">Cursos</a>
