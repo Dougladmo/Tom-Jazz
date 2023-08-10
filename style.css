@@ -316,7 +316,6 @@ footer input {
 }
 
 @media (max-width: 600px) {
-
   header {
     display: flex;
     flex-direction: column;
@@ -332,5 +331,9 @@ footer input {
     grid-template-columns: 1fr 1fr;
     row-gap: 12px;
     margin-left: 31px;
+  }
+
+  footer .body-btn {
+    margin-bottom: 50px;
   }
 }
